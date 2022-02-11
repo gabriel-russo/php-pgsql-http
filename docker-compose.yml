@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  php:
+    image: phppsql
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - "80:80"
+  psql:
+    image: postgres
+    environment:
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: docker
+    ports:
+      - "5432:5432"

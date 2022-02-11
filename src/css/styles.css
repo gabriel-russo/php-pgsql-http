@@ -1,0 +1,160 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  background-color: #D3D3D3;
+}
+
+main {
+  margin: 10%;
+  background-color: #F5DEB3;
+}
+
+.titulo {
+  padding-block: 20px;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.titulo h1 {
+  font-size: 30px;
+  font-family: "Alatsi", sans-serif;
+}
+
+main {
+  max-width: 60vw;
+}
+
+.formulario-container {
+  margin: 3% 5% 3%;
+  padding: 5%;
+  max-width: 60vw;
+  border-bottom: 2px solid black;
+}
+.formulario-container h3 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  font-family: "Alatsi", sans-serif;
+}
+.formulario-container .formulario {
+  width: 100%;
+  margin-top: 30px;
+}
+.formulario-container .formulario .formulario-input {
+  margin: 5px;
+}
+.formulario-container .formulario .formulario-input input, .formulario-container .formulario .formulario-input textarea {
+  resize: none;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.formulario-container .formulario .formulario-input * {
+  display: block;
+  margin-top: 5px;
+}
+.formulario-container .formulario .botao {
+  margin-top: 15px;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: #ffec64 linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
+}
+.formulario-container .formulario .botao:hover {
+  background: #ffab23 linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+}
+.formulario-container .botao:active {
+  position: relative;
+  top: 1px;
+}
+
+.comentarios-container {
+  margin: 3% 5% 3%;
+  padding: 5%;
+}
+.comentarios-container .comentarios-titulo {
+  font-family: "Alatsi", sans-serif;
+  width: auto;
+}
+.comentarios-container .comentarios {
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.comentarios-container .comentarios .comentarios-nome {
+  padding-bottom: 2px;
+  border-bottom: 1px solid black;
+  width: 30%;
+}
+.comentarios-container .comentarios .comentarios-msg {
+  padding: 20px;
+  max-width: 100%;
+}
+.comentarios-container .comentarios span {
+  font-family: "Alatsi", sans-serif;
+  display: block;
+}
+
+/*# sourceMappingURL=styles.css.map */
