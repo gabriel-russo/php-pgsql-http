@@ -13,4 +13,8 @@ CREATE TABLE Comentarios(
   comentario text,
   PRIMARY KEY(id)
 );
-`
+```
+
+### Screenshot
+
+![](screenshot.png "Screenshot")
